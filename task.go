@@ -33,7 +33,7 @@ import (
 const (
 	// MaximumTaskCall is the max number of times a task can be called.
 	// This exists to prevent infinite loops on cyclic dependencies
-	MaximumTaskCall = 1000
+	MaximumTaskCall = 1000000
 )
 
 type TempDir struct {
